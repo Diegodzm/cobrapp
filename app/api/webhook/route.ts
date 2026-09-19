@@ -63,7 +63,7 @@ export async function POST(req: NextRequest) {
               console.log(`📊 ESTADO DE MENSAJE: ${status.status.toUpperCase()}`);
               console.log(`🆔 ID Mensaje: ${status.id}`);
               console.log(`📱 Destinatario: +${status.recipient_id}`);
-              console.log('----------------------------------------------------');
+            
             }
           }
         }
